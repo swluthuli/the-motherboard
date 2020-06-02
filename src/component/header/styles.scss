@@ -1,0 +1,65 @@
+
+
+
+.logo{
+    overflow: hidden;
+    text-align: center;
+padding-top: .25rem
+}
+.logoImage{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.txtEnd{
+   text-align: end;
+  
+}
+.rightAlign{
+    display: flex; 
+    justify-content: flex-end
+}
+.icon{
+    top:-9px;
+}
+.location{
+    padding: .75rem 1.25rem;
+}
+.makeButton{
+    cursor: pointer;
+}
+.top-padding{
+    padding-top: 1rem;
+}
+.padding-right{
+    padding-right: 2rem !important
+    
+}
+
+@media (max-width: 640px){
+    .location{
+        display: none;
+    }
+    .searchBarWrapper{
+        display: none;
+    }
+ 
+    .login{
+        display: none !important;
+    }
+    .signup{
+        display: none !important;
+    }
+    .clientService{
+        display: none !important;
+    }
+    .Toolbarcontainer{
+       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1)
+    }
+    .logo{
+        text-align: start;
+    }
+    .logo a{
+        padding-left:0 !important;
+    }
+}    
