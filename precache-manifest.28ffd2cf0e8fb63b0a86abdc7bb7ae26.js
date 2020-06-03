@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0287513d27a63342ac08dea8ed996167",
+    "revision": "8fdde7d0a76f1943e9007ca2c4a61c46",
     "url": "/the-motherboard/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-motherboard/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "2c185ab386c6360e0642",
-    "url": "/the-motherboard/static/css/main.958fd763.chunk.css"
+    "revision": "55d714dd21fd5a935021",
+    "url": "/the-motherboard/static/css/main.e4eab91e.chunk.css"
   },
   {
     "revision": "1746e79503e3fe02c5dc",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-motherboard/static/js/2.b4ba04c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2c185ab386c6360e0642",
-    "url": "/the-motherboard/static/js/main.df19f9a8.chunk.js"
+    "revision": "55d714dd21fd5a935021",
+    "url": "/the-motherboard/static/js/main.f1c0562c.chunk.js"
   },
   {
     "revision": "0821f60b33b335530796",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "97b1db4f3d3edf061542f4a63bfdbfc4",
     "url": "/the-motherboard/static/media/1.97b1db4f.jpg"
+  },
+  {
+    "revision": "0a13c540938b1b7dd3996b02ea568e5f",
+    "url": "/the-motherboard/static/media/HelveticaNeueMedium.0a13c540.ttf"
   },
   {
     "revision": "c63962941abc94ce0f1dea94d69470d5",

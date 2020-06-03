@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/the-motherboard/static/css/main.958fd763.chunk.css",
-    "main.js": "/the-motherboard/static/js/main.df19f9a8.chunk.js",
-    "main.js.map": "/the-motherboard/static/js/main.df19f9a8.chunk.js.map",
+    "main.css": "/the-motherboard/static/css/main.e4eab91e.chunk.css",
+    "main.js": "/the-motherboard/static/js/main.f1c0562c.chunk.js",
+    "main.js.map": "/the-motherboard/static/js/main.f1c0562c.chunk.js.map",
     "runtime-main.js": "/the-motherboard/static/js/runtime-main.db7ced53.js",
     "runtime-main.js.map": "/the-motherboard/static/js/runtime-main.db7ced53.js.map",
     "static/css/2.af3c1da9.chunk.css": "/the-motherboard/static/css/2.af3c1da9.chunk.css",
     "static/js/2.b4ba04c0.chunk.js": "/the-motherboard/static/js/2.b4ba04c0.chunk.js",
     "static/js/2.b4ba04c0.chunk.js.map": "/the-motherboard/static/js/2.b4ba04c0.chunk.js.map",
     "index.html": "/the-motherboard/index.html",
-    "precache-manifest.2534827f956a2e3957398c4165c5aea4.js": "/the-motherboard/precache-manifest.2534827f956a2e3957398c4165c5aea4.js",
+    "precache-manifest.28ffd2cf0e8fb63b0a86abdc7bb7ae26.js": "/the-motherboard/precache-manifest.28ffd2cf0e8fb63b0a86abdc7bb7ae26.js",
     "service-worker.js": "/the-motherboard/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/the-motherboard/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.958fd763.chunk.css.map": "/the-motherboard/static/css/main.958fd763.chunk.css.map",
+    "static/css/main.e4eab91e.chunk.css.map": "/the-motherboard/static/css/main.e4eab91e.chunk.css.map",
     "static/js/2.b4ba04c0.chunk.js.LICENSE.txt": "/the-motherboard/static/js/2.b4ba04c0.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/the-motherboard/static/media/1.97b1db4f.jpg",
+    "static/media/default.scss": "/the-motherboard/static/media/HelveticaNeueMedium.0a13c540.ttf",
     "static/media/logo.png": "/the-motherboard/static/media/logo.c6396294.png"
   },
   "entrypoints": [
     "static/js/runtime-main.db7ced53.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.b4ba04c0.chunk.js",
-    "static/css/main.958fd763.chunk.css",
-    "static/js/main.df19f9a8.chunk.js"
+    "static/css/main.e4eab91e.chunk.css",
+    "static/js/main.f1c0562c.chunk.js"
   ]
 }
