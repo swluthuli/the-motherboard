@@ -1,7 +1,19 @@
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    src: local('HelveticaNeue'), url(./fonts/HelveticaNeueMedium.ttf) format('opentype');
+  }
+
+  
+
+
+
 html{
     font-size: 12px;
 }
 html,
+
 body{
     height: 100%;
     margin: 0;
@@ -19,7 +31,7 @@ body{
     color: #1a1919;
     background-color: #fff;
     letter-spacing: 1px;
-    font-family: HelveticaNeueW01-65Medi,sans-serif !important;
+    font-family: HelveticaNeue,sans-serif !important;
     font-weight: 400;
     max-width: 100%;
 }

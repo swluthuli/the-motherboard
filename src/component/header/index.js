@@ -74,7 +74,7 @@ class Header extends React.Component {
                   <ListGroup.Item onClick={this.showLogin} className="makeButton login">
                     Log in
                   </ListGroup.Item>
-                  <ListGroup.Item className="icon">
+                  <ListGroup.Item className="icon user-control">
                     <MdPermIdentity/>
                   </ListGroup.Item>
                   <Login showLogin={this.showLogin} isShow={this.state.showLoginModel} />
