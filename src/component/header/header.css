@@ -38,9 +38,15 @@ padding-top: .25rem
 .user-control{
     display:none !important;
 }
+.menu{
+    display: none;
+}
 
 @media (max-width: 640px){
-    .location{
+    .logoImage{
+        width: 90%;
+    }
+    .locationIdicator{
         display: none;
     }
     .searchBarWrapper{
@@ -64,5 +70,12 @@ padding-top: .25rem
     }
     .logo a{
         padding-left:0 !important;
+    }
+    .user-control{
+        display: inline  !important;
+    }
+    .menu{
+        display: inline !important;
+        margin-top: 8px;
     }
 }    

@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles.scss";
+import "./header.css";
 import Logo from "../../assets/logo.png";
-import { MdShoppingBasket, MdSearch,MdPermIdentity } from "react-icons/md";
+import { MdShoppingBasket, MdSearch,MdPermIdentity,MdMenu } from "react-icons/md";
 import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
@@ -59,15 +59,17 @@ class Header extends React.Component {
     return (
       <Container className="Toolbarcontainer">
         <Row className="top-padding">
-          <Col xs={0} md={4} className="location">
-            Shop in : South Africa
+          <Col xs={3} md={4}>
+          <MdMenu className="menu icon" onClick={this.props.drawerClickHandler}/>
+            <div className="locationIdicator">Shop in : South Africa</div>
           </Col>
           <Col xs={6} md={4} className="logo">
+          
             <a href="/home" label="The Motherboard Project">
               <img className="logoImage" src={Logo} alt="TMP Logo" />
             </a>
           </Col>
-          <Col xs={6} md={4}>
+          <Col xs={3} md={4}>
             <Row className="txtEnd">
               <Col className="rightAlign">
                 <ListGroup horizontal>

@@ -15,7 +15,7 @@ const Footer = props => {
   
     <Container>
        <Row className="padding-top">
-        <Col>
+        <Col xs={12} md="auto">
           <Row className="listWrapper">
             <Col className="bottomBoard">
               <h5 className="menuItem" >Client Service</h5>
@@ -28,7 +28,7 @@ const Footer = props => {
             <Col className="menuItemPadding">FAQs</Col>
           </Row>
         </Col>
-        <Col>
+        <Col xs={12} md="auto">
           <Row className="listWrapper">
             <Col className="bottomBoard">
               <h5 className="menuItem" >Legal Area</h5>
@@ -41,7 +41,7 @@ const Footer = props => {
             <Col className="menuItemPadding">Cookie Policy</Col>
           </Row>
         </Col>
-        <Col>
+        <Col xs={12} md="auto">
           <h5 className="menuItem">Site map</h5>
         </Col>
         <Col md="auto" className="rightBoard">

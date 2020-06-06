@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Edition from '../../assets/1.jpg';
 import { MdKeyboardArrowRight } from "react-icons/md";
-import Footer from '../../component/footer'
+
 const Homepage = props =>{
     return (
         <section>
@@ -26,7 +26,7 @@ const Homepage = props =>{
       </Col>
   </Row>
 </Container>
-<Footer/>
+
             </section>
     );
 };
