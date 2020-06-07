@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b07b333b197bbda6a7f2e2e274dbc14",
+    "revision": "2628280985a30021f26b5426e1f1f337",
     "url": "/the-motherboard/index.html"
   },
   {
-    "revision": "e1c25f3f98a731796372",
+    "revision": "97eab8a192c70a0ac096",
     "url": "/the-motherboard/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "c54803c61a2e9c165341",
-    "url": "/the-motherboard/static/css/main.6a2666be.chunk.css"
+    "revision": "e7e92b316deeeac1f361",
+    "url": "/the-motherboard/static/css/main.91c60b4d.chunk.css"
   },
   {
-    "revision": "e1c25f3f98a731796372",
-    "url": "/the-motherboard/static/js/2.19fccadf.chunk.js"
+    "revision": "97eab8a192c70a0ac096",
+    "url": "/the-motherboard/static/js/2.bc86e512.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/the-motherboard/static/js/2.19fccadf.chunk.js.LICENSE.txt"
+    "url": "/the-motherboard/static/js/2.bc86e512.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c54803c61a2e9c165341",
-    "url": "/the-motherboard/static/js/main.b9901bcf.chunk.js"
+    "revision": "e7e92b316deeeac1f361",
+    "url": "/the-motherboard/static/js/main.5576f1ca.chunk.js"
   },
   {
     "revision": "0821f60b33b335530796",
