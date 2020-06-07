@@ -1,61 +1,42 @@
-import React from "react";
+import React, {Component} from "react";
 import "./header.css";
 import Logo from "../../assets/logo.png";
 import { MdShoppingBasket, MdSearch,MdPermIdentity,MdMenu } from "react-icons/md";
 import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
-import Login from "../login";
-import Register from "../register";
-import Clientzone from "../clientzone";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
-
-class Header extends React.Component {
+import Overlay from 'react-bootstrap/Overlay';
+import Popover from 'react-bootstrap/Popover'
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
+class Header extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      showLoginModel: false,
-      showRegisterModel: false,
-      showClienzoneModel: false,
-      value: ""
-    };
-    this.showLogin = this.showLogin.bind(this);
-    this.showRegister = this.showRegister.bind(this);
-    this.handleChange = this.handleChange.bind(this);
-  }
-  showLogin = e => {
-    this.setState(
-      {
-        showLoginModel: !this.state.showLoginModel
-      },
-      () => console.log(this.state.showLoginModel)
-    );
-  };
-  showRegister = e => {
-    this.setState(
-      {
-        showRegisterModel: !this.state.showRegisterModel
-      },
-      () => console.log(this.state.showRegisterModel)
-    );
-  };
-  showClientzone = e => {
-    this.setState(
-      {
-        showClienzoneModel: !this.state.showClienzoneModel
-      },
-      () => console.log(this.state.showClienzoneModel)
-    );
-  };
-  handleChange(event) {
-    this.setState({ value: event.target.value });
   }
 
-  render() {
+ 
+  render(){
+    const popover = (
+      <Popover id="popover-basic">
+        
+        <Popover.Content>
+        <ListGroup>
+        <ListGroup.Item onClick={this.props.showRegister} >
+                    Sign up
+                  </ListGroup.Item>
+                 
+                  <ListGroup.Item onClick={this.props.showLogin} >
+                    Log in
+                  </ListGroup.Item>
+
+</ListGroup>
+        </Popover.Content>
+      </Popover>
+    );
     return (
       <Container className="Toolbarcontainer">
         <Row className="top-padding">
@@ -73,21 +54,23 @@ class Header extends React.Component {
             <Row className="txtEnd">
               <Col className="rightAlign">
                 <ListGroup horizontal>
-                  <ListGroup.Item onClick={this.showLogin} className="makeButton login">
+                  <ListGroup.Item onClick={this.props.showLogin} className="makeButton login">
                     Log in
                   </ListGroup.Item>
                   <ListGroup.Item className="icon user-control">
-                    <MdPermIdentity/>
+                  <OverlayTrigger trigger="click" placement="bottom" overlay={popover}>
+                    <MdPermIdentity />
+                    </OverlayTrigger>
                   </ListGroup.Item>
-                  <Login showLogin={this.showLogin} isShow={this.state.showLoginModel} />
-                  <ListGroup.Item onClick={this.showRegister} className="makeButton signup" >
+                 
+                  <ListGroup.Item onClick={this.props.showRegister} className="makeButton signup" >
                     Sign up
                   </ListGroup.Item>
-                  <Register showRegister={this.showRegister} isShow={this.state.showRegisterModel} />
-                  <ListGroup.Item onClick={this.showClientzone} className="makeButton clientService" >
+                 
+                  <ListGroup.Item onClick={this.props.showClientzone} className="makeButton clientService" >
                     Client Service
                   </ListGroup.Item>
-                  <Clientzone showClientzone={this.showClientzone} isShow={this.state.showClienzoneModel} />
+                  
                   <ListGroup.Item className="icon">
                     <MdShoppingBasket />
                   </ListGroup.Item>
@@ -112,6 +95,7 @@ class Header extends React.Component {
         </Row>
       </Container>
     );
-  }
+  };
 }
+
 export default Header;

@@ -41,6 +41,9 @@ padding-top: .25rem
 .menu{
     display: none;
 }
+.Toolbarcontainer{
+    margin-top: 0 !important
+}
 
 @media (max-width: 640px){
     .logoImage{

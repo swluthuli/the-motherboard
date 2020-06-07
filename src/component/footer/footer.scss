@@ -10,14 +10,14 @@
 .leftFooterMenu{
     float: left;
     padding:0 25px;
-    width: calc(60% - 25px * 2);
+    
 
 }
 .rightFooterMenu{
     border-left: 1px solid #d4d4d4;
     float: right;
     padding: 1.5rem 25px;
-    width: calc(40% - 25px * 2 - 1px);
+
 }
 
 .menuItem {
@@ -37,11 +37,9 @@
 .bottomBoard{
     border-bottom: 1px solid #ccc;
     padding-left: 0 !important;
+  
 }
-.listWrapper{
-    padding-right: 12rem;
-   
-}
+
 .rightBoard{
     border-left: 1px solid #ccc; 
 padding-left: 2rem !important;
@@ -51,4 +49,25 @@ padding-left: 2rem !important;
 }
 .copyright{
     padding:1rem;
+}
+.hasChildren{
+    padding-right:5rem !important;
+}
+@media (max-width: 640px){
+ 
+    .padding-top{
+        padding-top: 7rem;
+    }
+    .menuItem{
+        padding-top:1.5rem;
+    }
+    .sitemap{
+        padding-left: 0 !important;
+    }
+    .rightBoard{
+        border-left: 0 solid #ccc; 
+        padding-left: 0 !important;
+        padding-top:5rem;
+    }
+
 }

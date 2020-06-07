@@ -116,3 +116,9 @@ border-radius: 0 !important;
 .list-group-item{
      border: 0 !important;
 }
+
+@media (max-width: 640px){
+    .menu-bar{
+        display: none !important;
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles.scss';
-import Directory from '../../component/Directory';
+import './homepage.css';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -10,7 +10,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 const Homepage = props =>{
     return (
         <section>
-            <Directory/>
+           
             <Container className="container">
   <Row>
     <Col md={{ span: 6, offset: 3 }} >
@@ -19,7 +19,7 @@ const Homepage = props =>{
   </Row>
   <Row>
       <Col md={{ span: 6, offset: 3 }} >
-      <h4 className="text-padding">Spring 2020 Collection<span className="icon">  <MdKeyboardArrowRight/></span></h4>
+      <h5 className="text-padding">Spring 2020 Collection<span className="icon">  <MdKeyboardArrowRight/></span></h5>
       </Col>
       <Col>
     

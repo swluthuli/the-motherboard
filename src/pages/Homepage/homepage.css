@@ -1,0 +1,25 @@
+.hero {
+    text-align: center;
+}
+
+.season-edition {
+    width: 100%;
+}
+
+.collection {
+    text-align: center;
+
+}
+
+.text-padding {
+
+    padding-top: 2rem;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.container{
+    margin-top: 2rem;
+}

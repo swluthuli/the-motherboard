@@ -1718,3 +1718,5 @@
 [0605/011027.394:ERROR:exception_snapshot_win.cc(98)] thread ID 1616 not found in process
 [0606/001928.711:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0606/001928.775:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0606/231741.396:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0606/231741.434:ERROR:crash_report_database_win.cc(469)] failed to stat report

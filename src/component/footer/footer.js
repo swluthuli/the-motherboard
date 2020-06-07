@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.scss";
+import "./footer.scss";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -15,8 +15,10 @@ const Footer = props => {
   
     <Container>
        <Row className="padding-top">
-        <Col xs={12} md="auto">
-          <Row className="listWrapper">
+<Col xs={12} md={8}>
+  <Row>
+<Col xs={12} md={4}>
+ <Row className="hasChildren">
             <Col className="bottomBoard">
               <h5 className="menuItem" >Client Service</h5>
             </Col>
@@ -27,9 +29,9 @@ const Footer = props => {
           <Row>
             <Col className="menuItemPadding">FAQs</Col>
           </Row>
-        </Col>
-        <Col xs={12} md="auto">
-          <Row className="listWrapper">
+</Col>
+<Col xs={12} md={4}>
+<Row className="hasChildren">
             <Col className="bottomBoard">
               <h5 className="menuItem" >Legal Area</h5>
             </Col>
@@ -40,12 +42,18 @@ const Footer = props => {
           <Row>
             <Col className="menuItemPadding">Cookie Policy</Col>
           </Row>
-        </Col>
-        <Col xs={12} md="auto">
-          <h5 className="menuItem">Site map</h5>
-        </Col>
-        <Col md="auto" className="rightBoard">
-          <Row>
+</Col>
+<Col xs={12} md={4}>
+<Row>
+  <Col className="sitemap">
+  <h5 className="menuItem ">Site map</h5>
+  </Col>
+</Row>
+</Col>
+</Row>
+</Col>
+<Col xs={12} md={4} className="rightBoard">
+<Row>
             <Col className="bottomPadding">
               <h6>SIGN UP FOR THE MOTHERBOARD PROJECT UPDATES</h6>
             </Col>
@@ -68,7 +76,8 @@ const Footer = props => {
   </InputGroup>
             </Col>
           </Row>
-        </Col>
+
+</Col>
       </Row>
       <Row className="copyright">
         <Col>
