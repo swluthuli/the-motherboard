@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/the-motherboard/static/css/main.91c60b4d.chunk.css",
-    "main.js": "/the-motherboard/static/js/main.5576f1ca.chunk.js",
-    "main.js.map": "/the-motherboard/static/js/main.5576f1ca.chunk.js.map",
+    "main.css": "/the-motherboard/static/css/main.220ead8b.chunk.css",
+    "main.js": "/the-motherboard/static/js/main.1f3c1a5f.chunk.js",
+    "main.js.map": "/the-motherboard/static/js/main.1f3c1a5f.chunk.js.map",
     "runtime-main.js": "/the-motherboard/static/js/runtime-main.db7ced53.js",
     "runtime-main.js.map": "/the-motherboard/static/js/runtime-main.db7ced53.js.map",
     "static/css/2.af3c1da9.chunk.css": "/the-motherboard/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.bc86e512.chunk.js": "/the-motherboard/static/js/2.bc86e512.chunk.js",
-    "static/js/2.bc86e512.chunk.js.map": "/the-motherboard/static/js/2.bc86e512.chunk.js.map",
+    "static/js/2.e31da1a0.chunk.js": "/the-motherboard/static/js/2.e31da1a0.chunk.js",
+    "static/js/2.e31da1a0.chunk.js.map": "/the-motherboard/static/js/2.e31da1a0.chunk.js.map",
     "index.html": "/the-motherboard/index.html",
-    "precache-manifest.15dbcd27a7137e4ceeb1761377fa7554.js": "/the-motherboard/precache-manifest.15dbcd27a7137e4ceeb1761377fa7554.js",
+    "precache-manifest.1e8366850bd84c0f7c7bdf13981ae634.js": "/the-motherboard/precache-manifest.1e8366850bd84c0f7c7bdf13981ae634.js",
     "service-worker.js": "/the-motherboard/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/the-motherboard/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.91c60b4d.chunk.css.map": "/the-motherboard/static/css/main.91c60b4d.chunk.css.map",
-    "static/js/2.bc86e512.chunk.js.LICENSE.txt": "/the-motherboard/static/js/2.bc86e512.chunk.js.LICENSE.txt",
+    "static/css/main.220ead8b.chunk.css.map": "/the-motherboard/static/css/main.220ead8b.chunk.css.map",
+    "static/js/2.e31da1a0.chunk.js.LICENSE.txt": "/the-motherboard/static/js/2.e31da1a0.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/the-motherboard/static/media/1.97b1db4f.jpg",
     "static/media/default.scss": "/the-motherboard/static/media/HelveticaNeueMedium.0a13c540.ttf",
     "static/media/logo.png": "/the-motherboard/static/media/logo.c6396294.png"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.db7ced53.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.bc86e512.chunk.js",
-    "static/css/main.91c60b4d.chunk.css",
-    "static/js/main.5576f1ca.chunk.js"
+    "static/js/2.e31da1a0.chunk.js",
+    "static/css/main.220ead8b.chunk.css",
+    "static/js/main.1f3c1a5f.chunk.js"
   ]
 }
