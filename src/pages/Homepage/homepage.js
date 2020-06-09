@@ -11,7 +11,7 @@ const Homepage = props =>{
     return (
         <section>
            
-            <Container className="container">
+            <Container className="homeContainer">
   <Row>
     <Col md={{ span: 6, offset: 3 }} >
     <img className="season-edition" src={Edition} alt="season edition" />

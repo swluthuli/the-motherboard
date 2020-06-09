@@ -20,6 +20,13 @@
     font-size: 20px;
 }
 
-.container{
+.homeContainer{
     margin-top: 2rem;
 }
+
+@media (max-width: 640px) {
+    .homeContainer{
+      padding-left: 3rem !important;
+      padding-right: 3rem !important;
+    }
+   }
