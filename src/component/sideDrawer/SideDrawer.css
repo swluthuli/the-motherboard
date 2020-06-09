@@ -14,3 +14,13 @@
 .side-drawer.open{
     transform: translateX(0)
 }
+.side-drawer ul li a{
+    font-size: 20px;
+}
+.close{
+  text-align: end;
+font-size: 30px !important;
+padding:.2rem;
+}
+
+

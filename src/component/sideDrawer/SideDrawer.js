@@ -1,5 +1,7 @@
 import React from "react";
-import "./SideDrawer.css"
+import "./SideDrawer.css";
+import { MdClose } from "react-icons/md";
+import Directory from "../Directory"
 const sideDrawer = props =>{
 
     let drawerClasses = "side-drawer";
@@ -10,8 +12,8 @@ const sideDrawer = props =>{
     return(
     <nav className={drawerClasses}>
         <ul>
-            <li><a href="/">products</a></li>
-            <li><a href="/">Users</a></li>
+<MdClose className="icon close" onClick={props.drawerClickHandler}/>
+           <Directory />
         </ul>
     </nav>
 );

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import "./default.scss";
 import Header from "./component/header/header";
 import Homepage from "./pages/Homepage/homepage";
@@ -9,6 +10,7 @@ import Backdrop from "./component/backdrop/backdrop";
 import Login from "./component/login";
 import Register from "./component/register";
 import Clientzone from "./component/clientzone/clientzone";
+
 
 class App extends Component {
   state = {
@@ -72,7 +74,7 @@ class App extends Component {
           showClientHandle={this.showClientHandle}
           clientHandle={this.state.clientHandle}
         ></Header>
-        <SideDrawer show={this.state.sideDrawerOpen} />
+        <SideDrawer  drawerClickHandler={this.drawerToggleClickHandler} show={this.state.sideDrawerOpen} />
         <Register
           showRegister={this.showRegister}
           isShow={this.state.showRegisterModel}
@@ -84,7 +86,11 @@ class App extends Component {
         />
 
         {backdrop}
-        <Directory />
+      <div className="directory">
+
+      <Directory />
+      </div>
+       
         <Homepage></Homepage>
         <Footer />
       </div>

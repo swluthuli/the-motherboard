@@ -8,9 +8,8 @@
 a{
     padding: 20px !important;
 }
-
 @media (max-width: 640px){
-    .wrapper{
-        display: none !important;
-    }
+ .navigationList{
+     display: block !important;
+ }
 }

@@ -1,11 +1,16 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import './styles.scss';
+import Homepage from "../../pages/Homepage/homepage";
 const Directory = props =>{
     return (
+
+
+    
         <div className="wrapper">
 <Nav
   activeKey="/home"
+  className="navigationList"
   onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
 >
   <Nav.Item>
@@ -24,7 +29,10 @@ const Directory = props =>{
     <Nav.Link eventKey="link-4">Accessories</Nav.Link>
   </Nav.Item>
 </Nav>
+
+
         </div>
+    
     );
 };
 export default Directory;
